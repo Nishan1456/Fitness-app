@@ -1,0 +1,67 @@
+.frame2Container {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  display: flex;
+  background-color: #3e3e3e;
+}
+.frame2Box1 {
+  height: 450px;
+  width: 100%;
+}
+.frame2Box1 img {
+  height: 345px;
+  width: 450px;
+  border-radius: 10px;
+  margin: 53px 120px;
+}
+.frame2Box2 {
+  height: 450px;
+  max-width: 690px;
+
+  padding: 65px 0;
+  padding-right: 308px;
+}
+.frame2Box2 .par {
+  word-wrap: break-word;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.frame2Box2 h1 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.frame2Box2 .par {
+  margin: 20px 0;
+  color: #f5f1f1;
+  font-size: 15px;
+  line-height: 20px;
+}
+.frame2Box2 p {
+  color: #f5f1f1;
+  font-size: 15px;
+  line-height: 20px;
+}
+.frame2Box2 button {
+  margin-top: 34px;
+  background-color: #df2828;
+  border-radius: 10px;
+  padding: 10px;
+  width: 145px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.4s ease-in;
+}
+.frame2Box2 button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.frame2Box2 button:hover {
+  background-color: #2e8b57;
+}
