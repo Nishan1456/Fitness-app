@@ -1,0 +1,128 @@
+.frame6Container {
+  height: 355px;
+  width: 100%;
+  background-color: #3c3939;
+  padding: 60px;
+}
+.frame6Content {
+  height: 200px;
+  display: flex;
+  padding-left: 95px;
+}
+.contact {
+  margin-right: 75px;
+}
+.contact h3 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact li {
+  list-style: none;
+  margin: 12px 0;
+}
+.contact li a {
+  text-decoration: none;
+  color: #f5f1f1;
+  font-size: 15px;
+  line-height: 22px;
+}
+.contact li a:hover {
+  color: #df2828;
+}
+.icon {
+  color: #df2828;
+  margin-right: 5px;
+  height: 17px;
+}
+.arrow {
+  color: #fff;
+  margin-left: 5px;
+}
+.check {
+  background-color: #e16805;
+  border-radius: 27px;
+  padding: 1px;
+  height: 18px;
+  margin-right: 12px;
+}
+
+/* ....email */
+.email-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+  padding: 1px 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.email-container input {
+  border: none;
+  outline: none;
+  padding: 3px;
+  font-size: 15px;
+  flex: 1;
+}
+
+.email-container button {
+  background-color: #df2828;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.email-container button:hover {
+  background-color: #c81616;
+}
+
+.email-container button i {
+  font-size: 16px;
+}
+.frame6Footer {
+  margin: 0 75px 0 93px;
+}
+.frame6Footer .frame6Line {
+  height: 2px;
+  width: 100%;
+  background-color: #757272;
+}
+.frame6Bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame6Bottom img {
+  height: 93px;
+  width: 180px;
+  margin-right: 180px;
+}
+.frame6Bottom p {
+  color: #797676;
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 60px;
+}
+.frame6Logo {
+  margin-left: 310px;
+}
+.social {
+  margin-right: 6px;
+  height: 20px;
+  color: #757272;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.social:hover {
+  color: #e16805;
+}

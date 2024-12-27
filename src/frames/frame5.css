@@ -1,0 +1,282 @@
+.frame5Container {
+  height: 1246px;
+  width: 100%;
+  background-color: #333533;
+  padding: 70px;
+}
+.frame5Top {
+  text-align: center;
+}
+.frame5Top h1 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.frame5Top p {
+  color: #f5f1f1;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 30px 0;
+}
+/* ...................................j */
+.slide {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-selector {
+  position: relative;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #df2828;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.pricing-selector input {
+  display: none;
+}
+
+.option {
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  transition: color 0.3s ease-in-out;
+}
+
+#monthly:checked + label {
+  color: #fff;
+}
+
+#annual:checked + label {
+  color: #fff;
+}
+
+.selector {
+  position: absolute;
+
+  width: 99px;
+  height: 50px;
+  background-color: #df2828;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#annual:checked ~ .selector {
+  transform: translateX(100%);
+}
+/* .........................k */
+.frame5Box {
+  height: 460px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame5Box .frame5Block {
+  height: 400px;
+  width: 330px;
+  background-color: #615c5c;
+
+  border-radius: 10px;
+  margin-right: 50px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  padding: 25px 50px;
+}
+.frame5Block:hover {
+  background-color: #e16805;
+  height: 460px;
+  width: 350px;
+}
+.frame5Block h4 {
+  color: #f5f1f1;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+.frame5Dollar {
+  color: #fff;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+}
+.frame5Per {
+  color: #f5f1f1;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.frame5Par {
+  margin: 27px 0;
+  text-align: center;
+}
+.frame5Text {
+  margin-left: 33px;
+}
+.frame5Text .light {
+  color: #f5f1f1;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.frame5Text .blur {
+  color: #aea9a9;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.frame5Block button {
+  background-color: #615c5c;
+  border-radius: 25px;
+  padding: 10px;
+  width: 190px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid white;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.4s ease-in;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.frame5Block button:hover {
+  background-color: #fff;
+  color: #e16805;
+}
+.frame5Feed {
+  height: 380px;
+  width: 100%;
+
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+}
+.frame5Comment1 {
+  height: 380px;
+  width: 100%;
+}
+.frame5Comment1 h1 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  margin: 0 95px;
+  margin-top: 40px;
+}
+.frame5Comment1 p {
+  color: #f5f1f1;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 22px 95px;
+}
+.frame5Comment2 {
+  height: 380px;
+  width: 100%;
+}
+.frame5Section {
+  height: 300px;
+  width: 450px;
+  background-color: #615c5c;
+  margin: auto;
+  margin-top: 32px;
+  border-radius: 12px;
+  padding: 32px;
+}
+.frame5Section1 {
+  display: flex;
+}
+.frame5Section1 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.frame5Name {
+  margin-left: 14px;
+  margin-top: 5px;
+}
+.frame5Name p {
+  color: #f5f1f1;
+  font-size: 13px;
+  line-height: 22px;
+}
+.frame5Name h4 {
+  font-size: 18px;
+  color: #fff;
+}
+.frame5Section2 {
+  display: flex;
+  position: relative;
+  bottom: 20px;
+}
+.frame5Section2 img {
+  height: 100px;
+  width: 115px;
+}
+.frame5Section3 {
+  position: relative;
+  bottom: 60px;
+  padding: 14px 0;
+}
+.frame5Section3 p {
+  color: #f5f1f1;
+  font-size: 16px;
+  line-height: 22px;
+}
+.frame5Rating {
+  display: flex;
+}
+.photo-container {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-left: 85px;
+}
+
+.photo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.photo[data-rating="5"] {
+  z-index: 1;
+  top: 30px;
+  left: 10px;
+}
+
+.photo[data-rating="3"] {
+  z-index: 3;
+  top: 30px;
+  left: 35px;
+}
+
+.photo[data-rating="2"] {
+  z-index: 3;
+  top: 30px;
+  left: 65px;
+}
+.frame5Rate img {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 42px;
+}
+.frame5Rate p {
+  position: relative;
+  right: 57px;
+  bottom: 3px;
+}

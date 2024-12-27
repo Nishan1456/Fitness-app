@@ -3,7 +3,7 @@
   height: 450px;
   position: relative;
   display: flex;
-  background-color: #3e3e3e;
+  background-color: #3c3939;
 }
 .frame2Box1 {
   height: 450px;
@@ -13,7 +13,8 @@
   height: 345px;
   width: 450px;
   border-radius: 10px;
-  margin: 53px 120px;
+  margin: 53px 0;
+  margin-left: 146px;
 }
 .frame2Box2 {
   height: 450px;
@@ -60,7 +61,7 @@
 .frame2Box2 button a {
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
 }
 .frame2Box2 button:hover {
   background-color: #2e8b57;

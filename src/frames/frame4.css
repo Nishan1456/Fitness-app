@@ -1,0 +1,58 @@
+.frame4Container {
+  display: flex;
+  position: relative;
+  height: 680px;
+  width: 100%;
+  padding: 40px;
+  background-color: #3c3939;
+}
+.frame4Box1 {
+  height: 600px;
+  width: 100%;
+}
+.frame4Box2 {
+  height: 600px;
+  width: 100%;
+}
+.frame4Box2 img {
+  height: 540px;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+.frame4Box1 h1 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  padding: 55px 113px 15px 113px;
+}
+.frame4Box1 .frame4Text {
+  margin: 20px 113px;
+}
+.frame4Text h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.frame4Text p {
+  color: #f5f1f1;
+  font-size: 15px;
+  line-height: 22px;
+}
+.frame4Box1 button {
+  background-color: #df2828;
+  border-radius: 10px;
+  padding: 10px;
+  width: 145px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.4s ease-in;
+  margin: 20px 113px;
+}
+.frame4Box1 button:hover {
+  background-color: #2e8b57;
+}
